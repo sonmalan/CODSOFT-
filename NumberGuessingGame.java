@@ -15,7 +15,7 @@ public class NumberGuessingGame {
 
         System.out.println("Welcome to the Number Guessing Game!");
 
-        int userGuess;  // Move the declaration outside the inner do-while loop
+        int userGuess;  //  declaration outside the inner do-while loop
 
         do {
             int randomNumber = random.nextInt(maxRange - minRange + 1) + minRange;
